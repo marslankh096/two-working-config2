@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_camera"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera"
+        app:itemIconSize="24dp" />
+    <item
+        android:id="@+id/tab_conversation"
+        android:enabled="true"
+        android:icon="@drawable/ic_users"
+        android:title="Conversation"
+        app:itemIconSize="24dp" />
+
+    <item
+        android:id="@+id/action_history"
+        android:enabled="true"
+        android:icon="@drawable/ic_history"
+        android:title="History"
+        app:itemIconSize="24dp" />
+</menu>

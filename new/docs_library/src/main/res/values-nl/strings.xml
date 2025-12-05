@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="page_no_text_office">Paginanummer</string>
+    <string name="toast_current_pg_1">Er zijn momenteel</string>
+    <string name="toast_current_pg_2">Pagina\'s</string>
+
+    <string name="toast_delete_success_office">Met succes verwijderd</string>
+    <string name="toast_file_name_not_valid_office">Bestandsnaam is niet geldig</string>
+    <string name="toast_name_already_exist">Naam bestaat al</string>
+    <string name="toast_file_rename_successfully_office">Document succesvol hernoemd</string>
+    <string name="more_dialog_rename_office">Hernoemen</string>
+    <string name="more_dialog_bookmark_office">Bladwijzer</string>
+    <string name="more_dialog_go_to_page_office">Ga naar pagina</string>
+    <string name="more_dialog_create_shortcut_office">Snelkoppeling maken</string>
+    <string name="more_dialog_convert_to_pdf_office">Converteren naar PDF</string>
+    <string name="more_dialog_share_office">Deel</string>
+    <string name="more_dialog_print_office">Afdrukken</string>
+    <string name="more_dialog_delete_office">Verwijderen</string>
+    <string name="details_dialog_details_office">Details</string>
+    <string name="details_dialog_file_name_office">Bestandsnaam</string>
+    <string name="details_dialog_storage_location_office">Opslaglocatie</string>
+    <string name="details_dialog_last_modified_office">Laatst gewijzigd</string>
+    <string name="details_dialog_file_size_office">Bestandsgrootte</string>
+    <string name="rename_dialog_ok_office">OK</string>
+    <string name="rename_dialog_done_office">Klaar</string>
+    <string name="rename_dialog_hint_office">Bestandsnaam</string>
+    <string name="delete_dialog_delete_title_office">Verwijderen</string>
+    <string name="delete_dialog_sub_title_office">Weet u zeker dat u dit bestand wilt verwijderen?</string>
+    <string name="delete_dialog_done_office">Klaar</string>
+    <string name="processing_dialog_title_office">Verwerken</string>
+    <string name="processing_dialog_sub_title_office">Bestanden naar de telefoon verwijderen, even geduld a.u.b....</string>
+    <string name="go_to_page_title_office">Ga naar pagina</string>
+    <string name="processing_print_office">Het bestand is klaar om te worden afgedrukt. Even geduld a.u.b....</string>
+
+    <string name="save_dialog_title_office">Document opslaan</string>
+    <string name="save_dialog_hint_office">Naam</string>
+    <string name="converstion_dialog_process_office">Conversie wordt uitgevoerd. Een paar minuten geduld a.u.b....</string>
+    <string name="converstion_dialog_success_office">Succes!</string>
+    <string name="toast_file_conversion_complete">Bestandsconversie voltooid</string>
+    <string name="toast_shortcut_exist">Er bestaat al een snelkoppeling</string>
+    <string name="toast_shortcut_launcher_not_support">Snelkoppeling wordt niet ondersteund door uw opstartprogramma</string>
+
+    <string name="failed_toast_office">Mislukt</string>
+</resources>

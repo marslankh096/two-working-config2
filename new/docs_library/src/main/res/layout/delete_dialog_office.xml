@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_dialog_background_office"
+    android:paddingBottom="32dp">
+
+    <ImageView
+        android:id="@+id/delete_imgg"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/icons_bg_office"
+        android:src="@drawable/ic_more_delete_office"
+        app:tint="@color/colorPrimary"
+        android:padding="7dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/delete_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:textAppearance="@style/TextAppearance.FontPath.Medium"
+        android:text="@string/more_dialog_delete_office"
+        android:textAlignment="textStart"
+        android:textColor="#001b36"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintStart_toEndOf="@id/delete_imgg"
+        app:layout_constraintTop_toTopOf="@id/delete_imgg"
+        app:layout_constraintBottom_toBottomOf="@id/delete_imgg"/>
+
+    <TextView
+        android:id="@+id/delete_des"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_dialog_sub_title_office"
+        android:textColor="#909cbb"
+        android:textSize="17sp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="20dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/delete_imgg"
+        app:layout_constraintTop_toBottomOf="@id/delete_imgg"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delete_des">
+
+        <TextView
+            android:id="@+id/cancel_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/border_bg_office"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingTop="11.3dp"
+            android:paddingBottom="11.3dp"
+            android:text="@string/cancel"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/done_delete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/done_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/done_btn_office"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingTop="11.3dp"
+            android:paddingBottom="11.3dp"
+            android:text="@string/rename_dialog_done_office"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cancel_delete"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

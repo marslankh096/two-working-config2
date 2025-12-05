@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Arabic (Egypt)",
+    "lang_code": "ar-EG"
+  },
+  {
+    "name": "Arabic (Saudi Arabia)",
+    "lang_code": "ar-SA"
+  },
+  {
+    "name": "Arabic (United Arab Emirates)",
+    "lang_code": "ar-AE"
+  },
+  {
+    "name": "Catalan",
+    "lang_code": "ca"
+  },
+  {
+    "name": "Chinese (Hong Kong)",
+    "lang_code": "zh-HK"
+  },
+  {
+    "name": "Chinese (Simplified)",
+    "lang_code": "zh-CN"
+  },
+  {
+    "name": "Chinese (Traditional)",
+    "lang_code": "zh-TW"
+  },
+  {
+    "name": "Croatian",
+    "lang_code": "hr"
+  },
+  {
+    "name": "Czech",
+    "lang_code": "cs"
+  },
+  {
+    "name": "Danish",
+    "lang_code": "da"
+  },
+  {
+    "name": "Dutch",
+    "lang_code": "nl"
+  },
+  {
+    "name": "English",
+    "lang_code": "en-US"
+  },
+  {
+    "name": "English (Australia)",
+    "lang_code": "en-AU"
+  },
+  {
+    "name": "English (UK)",
+    "lang_code": "en-UK"
+  },
+  {
+    "name": "Finnish",
+    "lang_code": "fi"
+  },
+  {
+    "name": "French (Canada)",
+    "lang_code": "fr-CA"
+  },
+  {
+    "name": "French (France)",
+    "lang_code": "fr-FR"
+  },
+  {
+    "name": "German",
+    "lang_code": "de"
+  },
+  {
+    "name": "Greek",
+    "lang_code": "el"
+  },
+  {
+    "name": "Hebrew",
+    "lang_code": "iw"
+  },
+  {
+    "name": "Hindi",
+    "lang_code": "hi"
+  },
+  {
+    "name": "Hungarian",
+    "lang_code": "hu"
+  },
+  {
+    "name": "Indonesian",
+    "lang_code": "id"
+  },
+  {
+    "name": "Italian",
+    "lang_code": "it"
+  },
+  {
+    "name": "Japanese",
+    "lang_code": "ja"
+  },
+  {
+    "name": "Korean",
+    "lang_code": "ko"
+  },
+  {
+    "name": "Malay",
+    "lang_code": "ms"
+  },
+  {
+    "name": "Norwegian",
+    "lang_code": "no"
+  },
+  {
+    "name": "Polish",
+    "lang_code": "pl"
+  },
+  {
+    "name": "Portuguese (Brazil)",
+    "lang_code": "pt-BR"
+  },
+  {
+    "name": "Portuguese (Portugal)",
+    "lang_code": "pt-PT"
+  },
+  {
+    "name": "Romanian",
+    "lang_code": "ro"
+  },
+  {
+    "name": "Russian",
+    "lang_code": "ru"
+  },
+  {
+    "name": "Slovak",
+    "lang_code": "sk"
+  },
+  {
+    "name": "Spanish (Mexico)",
+    "lang_code": "es-MX"
+  },
+  {
+    "name": "Spanish (Spain)",
+    "lang_code": "es-ES"
+  },
+  {
+    "name": "Spanish (US)",
+    "lang_code": "es-US"
+  },
+  {
+    "name": "Swahili",
+    "lang_code": "sw"
+  },
+  {
+    "name": "Swedish",
+    "lang_code": "sv"
+  },
+  {
+    "name": "Thai",
+    "lang_code": "th"
+  },
+  {
+    "name": "Turkish",
+    "lang_code": "tr"
+  },
+  {
+    "name": "Ukrainian",
+    "lang_code": "uk"
+  },
+  {
+    "name": "Vietnamese",
+    "lang_code": "vi"
+  }
+]

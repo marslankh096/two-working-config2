@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="page_no_text_office">Номер страницы</string>
+    <string name="toast_current_pg_1">в настоящее время есть</string>
+    <string name="toast_current_pg_2">Страницы</string>
+
+    <string name="toast_delete_success_office">Удален успешно</string>
+    <string name="toast_file_name_not_valid_office">Имя файла недействительно</string>
+    <string name="toast_name_already_exist">Имя уже существует</string>
+    <string name="toast_file_rename_successfully_office">Документ успешно переименован</string>
+    <string name="more_dialog_rename_office">Переименовать</string>
+    <string name="more_dialog_bookmark_office">Закладка</string>
+    <string name="more_dialog_go_to_page_office">Перейти на страницу</string>
+    <string name="more_dialog_create_shortcut_office">Создать ярлык</string>
+    <string name="more_dialog_convert_to_pdf_office">Конвертировать в PDF</string>
+    <string name="more_dialog_share_office">Делиться</string>
+    <string name="more_dialog_print_office">Распечатать</string>
+    <string name="more_dialog_delete_office">Удалить</string>
+    <string name="details_dialog_details_office">Подробности</string>
+    <string name="details_dialog_file_name_office">Имя файла</string>
+    <string name="details_dialog_storage_location_office">Место хранения</string>
+    <string name="details_dialog_last_modified_office">Последнее изменение</string>
+    <string name="details_dialog_file_size_office">Размер файла</string>
+    <string name="rename_dialog_ok_office">ХОРОШО</string>
+    <string name="rename_dialog_done_office">Сделанный</string>
+    <string name="rename_dialog_hint_office">Имя файла</string>
+    <string name="delete_dialog_delete_title_office">Удалить</string>
+    <string name="delete_dialog_sub_title_office">Вы уверены, что хотите удалить этот файл?</string>
+    <string name="delete_dialog_done_office">Сделанный</string>
+    <string name="processing_dialog_title_office">Обработка</string>
+    <string name="processing_dialog_sub_title_office">Удаление файлов на телефон, подождите...</string>
+    <string name="go_to_page_title_office">Перейти на страницу</string>
+    <string name="processing_print_office">Файл будет готов к печати, подождите...</string>
+
+    <string name="save_dialog_title_office">Сохранить документ</string>
+    <string name="save_dialog_hint_office">Имя</string>
+    <string name="converstion_dialog_process_office">Выполняется преобразование, подождите несколько минут...</string>
+    <string name="converstion_dialog_success_office">Успех!</string>
+    <string name="toast_file_conversion_complete">Преобразование файла завершено</string>
+    <string name="toast_shortcut_exist">Ярлык уже существует</string>
+    <string name="toast_shortcut_launcher_not_support">Ярлык не поддерживается вашим лаунчером</string>
+
+    <string name="failed_toast_office">Неуспешный</string>
+</resources>

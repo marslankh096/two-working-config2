@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@android:color/transparent"
+    tools:context=".ui.activities.clipboard.ClipboardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_clipboard_view">
+
+        <ImageView
+            android:id="@+id/iv_logo_clipboard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ic_launcher_n"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_logo_clipboard"
+            app:layout_constraintStart_toEndOf="@+id/iv_logo_clipboard"
+            app:layout_constraintTop_toTopOf="@+id/iv_logo_clipboard" />
+
+        <ImageView
+            android:id="@+id/iv_exit_clipboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="5dp"
+            android:src="@drawable/ic_exit_no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_speaker_clip_src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="25dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="5dp"
+            android:src="@drawable/ic_speaker_dictionary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_logo_clipboard" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_source_lang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:gravity="start"
+            android:padding="0dp"
+            android:spinnerMode="dropdown"
+            android:visibility="visible"
+            app:backgroundTint="#737373"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintTop_toTopOf="@+id/iv_speaker_clip_src" />
+
+        <TextView
+            android:id="@+id/tv_clip_source_lang_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="English"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_regular"
+            android:drawableEnd="@drawable/ic_drop_langs"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:gravity="start"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintStart_toEndOf="@+id/iv_speaker_clip_src"
+            app:layout_constraintTop_toTopOf="@+id/iv_speaker_clip_src" />
+
+        <ScrollView
+            android:id="@+id/scroll_src"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_speaker_clip_src">
+
+            <RelativeLayout
+                android:id="@+id/layout_input_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="90dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/tv_copied_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/roboto_regular"
+                    android:maxLength="1999"
+                    android:textColor="#b3000000"
+                    android:textSize="18sp"
+                    android:background="@drawable/bg_dictionary_search" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <View
+            android:id="@+id/view_line_clip"
+            android:layout_width="0dp"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/app_back_ground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scroll_src" />
+
+        <View
+            android:id="@+id/view_speaker"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="19dp"
+            android:padding="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_line_clip" />
+
+        <ImageView
+            android:id="@+id/iv_speaker_clip_tar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="19dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="5dp"
+            android:src="@drawable/ic_speaker_dictionary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_line_clip" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_lang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:gravity="start"
+            android:padding="0dp"
+            android:spinnerMode="dropdown"
+            android:visibility="visible"
+            app:backgroundTint="#737373"
+            app:layout_constraintBottom_toBottomOf="@+id/view_speaker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view_speaker"
+            app:layout_constraintTop_toTopOf="@+id/view_speaker" />
+
+        <TextView
+            android:id="@+id/tv_clip_target_lang_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:drawableEnd="@drawable/ic_drop_langs"
+            android:drawablePadding="@dimen/dimen_10dp"
+            android:gravity="start"
+            android:text="@string/tar_lang"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_regular"
+            app:layout_constraintBottom_toBottomOf="@+id/view_speaker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/view_speaker"
+            app:layout_constraintTop_toTopOf="@+id/view_speaker" />
+
+        <ScrollView
+            android:id="@+id/scroll_tar"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_lang">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="90dp">
+
+                <TextView
+                    android:id="@+id/tv_translated_word_clip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="37dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#4286f5"
+                    android:textSize="18sp" />
+
+                <ProgressBar
+                    android:id="@+id/progress_clip"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_clip_bottom"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_container_clip_bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scroll_tar">
+
+            <RelativeLayout
+                android:id="@+id/layout_clip_controller"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_clip_toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp" />
+
+                <View
+                    android:id="@+id/switch_view_quick"
+                    android:layout_width="65dp"
+                    android:layout_height="28dp"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/switch_view_quick"
+                    android:text="@string/turn_off_the_auto_translation"
+                    android:textSize="9sp" />
+
+            </RelativeLayout>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="MORE"
+                android:visibility="gone"
+                android:textColor="#4286f5"
+                app:drawableRightCompat="@drawable/ic_arrow"
+
+                />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonsCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mainCL"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/clearTV"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/bg_done"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:paddingHorizontal="24dp"
+            android:text="@string/clear"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/newTranslationTV"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/newTranslationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/bg_done"
+            android:backgroundTint="@color/top_bar_color"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:paddingHorizontal="24dp"
+            android:text="@string/new_translation"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/clearTV"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

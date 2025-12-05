@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_ad"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_exit_ad_container">
+
+        <TextView
+            android:id="@+id/tv_label_rate_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Rate Us!"
+            android:textColor="#4286f5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_label_review"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="37dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Could you leave us a nice review?\nIt Really helps!"
+            android:textColor="#b3000000"
+            android:textSize="16.7sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_rate_us" />
+
+        <com.willy.ratingbar.ScaleRatingBar
+            android:id="@+id/rating_bar_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_review"
+            app:srb_drawableEmpty="@drawable/ic_star_rating_unfill"
+            app:srb_drawableFilled="@drawable/ic_star_rating_fill"
+            app:srb_starHeight="29dp"
+            app:srb_starPadding="12dp"
+            app:srb_starWidth="30dp"
+            app:srb_stepSize="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_last_star"
+            app:layout_constraintBottom_toTopOf="@+id/rating_bar_exit"
+            app:layout_constraintEnd_toEndOf="@+id/rating_bar_exit"
+            app:layout_constraintStart_toEndOf="@+id/rating_bar_exit"
+            app:layout_constraintTop_toTopOf="@+id/rating_bar_exit"
+             />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/container_ad"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="15dp"
+            android:text="Exit"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/exit_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingHorizontal="13dp"
+            android:src="@drawable/ic_exit_yes" />
+
+        <ImageView
+            android:id="@+id/exit_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingHorizontal="13dp"
+            android:src="@drawable/ic_exit_no"
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">Numéro de page</string>
+    <string name="toast_current_pg_1">Il y a actuellement</string>
+    <string name="toast_current_pg_2">Pages</string>
+
+    <string name="toast_delete_success_office">Supprimé avec succès</string>
+    <string name="toast_file_name_not_valid_office">Le nom du fichier n\'est pas valide</string>
+    <string name="toast_name_already_exist">Le nom existe déjà</string>
+    <string name="toast_file_rename_successfully_office">Document renommé avec succès</string>
+    <string name="more_dialog_rename_office">Renommer</string>
+    <string name="more_dialog_bookmark_office">Signet</string>
+    <string name="more_dialog_go_to_page_office">Aller à la page</string>
+    <string name="more_dialog_create_shortcut_office">Créer un raccourci</string>
+    <string name="more_dialog_convert_to_pdf_office">Convertir en PDF</string>
+    <string name="more_dialog_share_office">Partager</string>
+    <string name="more_dialog_print_office">Imprimer</string>
+    <string name="more_dialog_delete_office">Supprimer</string>
+    <string name="details_dialog_details_office">Détails</string>
+    <string name="details_dialog_file_name_office">Nom de fichier</string>
+    <string name="details_dialog_storage_location_office">Emplacement de stockage</string>
+    <string name="details_dialog_last_modified_office">Dernière modification</string>
+    <string name="details_dialog_file_size_office">Taille du fichier</string>
+    <string name="rename_dialog_ok_office">D\'ACCORD</string>
+    <string name="rename_dialog_done_office">Fait</string>
+    <string name="rename_dialog_hint_office">Nom de fichier</string>
+    <string name="delete_dialog_delete_title_office">Supprimer</string>
+    <string name="delete_dialog_sub_title_office">Êtes-vous sûr de vouloir supprimer ce fichier?</string>
+    <string name="delete_dialog_done_office">Fait</string>
+    <string name="processing_dialog_title_office">Traitement</string>
+    <string name="processing_dialog_sub_title_office">Suppression de fichiers sur le téléphone, veuillez patienter...</string>
+    <string name="go_to_page_title_office">Aller à la page</string>
+    <string name="processing_print_office">Le fichier est prêt à être imprimé, veuillez patienter...</string>
+
+    <string name="save_dialog_title_office">Enregistrer le document</string>
+    <string name="save_dialog_hint_office">Nom</string>
+    <string name="converstion_dialog_process_office">Conversion en cours, veuillez patienter quelques minutes...</string>
+    <string name="converstion_dialog_success_office">Succès!</string>
+    <string name="toast_file_conversion_complete">Conversion de fichier terminée</string>
+    <string name="toast_shortcut_exist">Le raccourci existe déjà</string>
+    <string name="toast_shortcut_launcher_not_support">Le raccourci n\'est pas pris en charge par votre lanceur</string>
+
+    <string name="failed_toast_office">Échoué</string>
+</resources>

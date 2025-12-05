@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">Nomor halaman</string>
+    <string name="toast_current_pg_1">Saat ini ada</string>
+    <string name="toast_current_pg_2">Halaman</string>
+
+    <string name="toast_delete_success_office">Berhasil dihapus</string>
+    <string name="toast_file_name_not_valid_office">Nama file tidak valid</string>
+    <string name="toast_name_already_exist">Nama sudah ada</string>
+    <string name="toast_file_rename_successfully_office">Dokumen berhasil diganti namanya</string>
+    <string name="more_dialog_rename_office">Ganti nama</string>
+    <string name="more_dialog_bookmark_office">Penanda buku</string>
+    <string name="more_dialog_go_to_page_office">Buka halaman</string>
+    <string name="more_dialog_create_shortcut_office">Buat Pintasan</string>
+    <string name="more_dialog_convert_to_pdf_office">Konversikan ke PDF</string>
+    <string name="more_dialog_share_office">Membagikan</string>
+    <string name="more_dialog_print_office">Mencetak</string>
+    <string name="more_dialog_delete_office">Menghapus</string>
+    <string name="details_dialog_details_office">Detail</string>
+    <string name="details_dialog_file_name_office">Nama file</string>
+    <string name="details_dialog_storage_location_office">Lokasi penyimpanan</string>
+    <string name="details_dialog_last_modified_office">Terakhir diubah</string>
+    <string name="details_dialog_file_size_office">Ukuran file</string>
+    <string name="rename_dialog_ok_office">OKE</string>
+    <string name="rename_dialog_done_office">Selesai</string>
+    <string name="rename_dialog_hint_office">Nama file</string>
+    <string name="delete_dialog_delete_title_office">Menghapus</string>
+    <string name="delete_dialog_sub_title_office">Apakah Anda yakin ingin menghapus file ini?</string>
+    <string name="delete_dialog_done_office">Selesai</string>
+    <string name="processing_dialog_title_office">Pengolahan</string>
+    <string name="processing_dialog_sub_title_office">Menghapus file ke ponsel, harap tunggu...</string>
+    <string name="go_to_page_title_office">Buka halaman</string>
+    <string name="processing_print_office">File akan siap dicetak, harap tunggu...</string>
+
+    <string name="save_dialog_title_office">Simpan Dokumen</string>
+    <string name="save_dialog_hint_office">Nama</string>
+    <string name="converstion_dialog_process_office">Konversi sedang berlangsung, harap tunggu beberapa menit...</string>
+    <string name="converstion_dialog_success_office">Kesuksesan!</string>
+    <string name="toast_file_conversion_complete">Konversi file Selesai</string>
+    <string name="toast_shortcut_exist">Jalan pintas sudah ada</string>
+    <string name="toast_shortcut_launcher_not_support">Pintasan tidak didukung oleh peluncur Anda</string>
+
+    <string name="failed_toast_office">Gagal</string>
+</resources>

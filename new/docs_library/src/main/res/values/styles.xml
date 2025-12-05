@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ProgressBarStyle" parent="android:Widget.Material.ProgressBar.Horizontal">
+        <item name="android:colorAccent">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="ProgressBarTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorAccent">?android:attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="customBottomSheetDialogSize" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="TextAppearance.FontPath.Medium" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="TextAppearance.FontPath.Bold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+</resources>

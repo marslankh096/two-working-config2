@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_phrase_type"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/categoryIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13.3dp"
+        android:src="@drawable/categoryessentials"
+        app:layout_constraintBottom_toBottomOf="@id/lineView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="13.3dp"
+        android:layout_marginTop="15.3dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Essentials"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="14.7sp"
+        app:layout_constraintBottom_toTopOf="@id/subtitleTV"
+        app:layout_constraintEnd_toStartOf="@id/categoryArrowIV"
+        app:layout_constraintStart_toEndOf="@id/categoryIV"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/subtitleTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13.3dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_regular"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Basic,Directions"
+        android:textAlignment="viewStart"
+        android:textColor="#73000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/categoryArrowIV"
+        app:layout_constraintStart_toStartOf="@id/titleTV"
+        app:layout_constraintTop_toBottomOf="@id/titleTV" />
+
+    <ImageView
+        android:id="@+id/categoryArrowIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13.3dp"
+        android:src="@drawable/ic_category_arrow_down"
+        app:layout_constraintBottom_toBottomOf="@id/lineView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="0dp"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="15.3dp"
+        android:background="#dedede"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/titleTV"
+        app:layout_constraintTop_toBottomOf="@id/subtitleTV" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subcategoryRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/lineView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

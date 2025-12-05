@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3781D6</color>
+    <color name="colorPrimaryDark">#033FA8</color>
+    <color name="colorAccent">#346ac2</color>
+    <color name="colorTextBlack">#000</color>
+    <color name="colorGrayLight">#C5C4C4</color>
+    <color name="colorRed">#9E1A1A</color>
+    <color name="colorStatusBarWhite">#FFF</color>
+    <color name="colorGrayActivity">#DFDEDE</color>
+    <color name="alphabet_text_color">#A4A4A8</color>
+    <color name="alphabet_text_selected_color">#3781D6</color>
+    <color name="alphabet_background_color">#fff</color>
+    <color name="alphabet_background_border_color">#fff</color>
+    <color name="blue">#416CEB</color>
+    <color name="grey">#B1ADAD</color>
+    <color name="text_color_dialog">#63b7f7</color>
+    <color name="black_translucent">#650D0E0E</color>
+
+
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#CCCACA</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#969494</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="ad_background">#41000000</color>
+    <color name="main_native_ad_colors">#EDF0FA</color>
+    <color name="colorLightGrey">#B9B7B7</color>
+    <color name="dialog_back">#C80D0E0E</color>
+    <color name="shimmer_headline">#C8C7C5C5</color>
+    <color name="cross_tint">#888888</color>
+    <color name="theme">#3671E9</color>
+    <color name="setting_blocked">#4DC7C5C5</color>
+    <color name="color_favorite_ripple">#CC918E8E</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="ripple_color_right">#9575CD</color>
+    <color name="ripple_color_left">#4285F4</color>
+    <color name="colorLangBoxHeader">#4286F5</color>
+    <color name="app_back_ground">#eff1f3</color>
+    <color name="color_lang_selected">#73000000</color>
+    <color name="color_rating_normal">#A6A4A6</color>
+    <color name="color_rating_active">#ffc107</color>
+    <color name="srb_golden_stars">#FFC619</color>
+    <color name="color_lang_un_selected">#ABACAD</color>
+    <color name="color_in_app_status_bar">#e3e5e7</color>
+    <color name="rippelColor">#0099CC</color>
+    <color name="color_conversation_translation">#48474c</color>
+    <color name="color_app_theme">#F2F2F2</color>
+    <color name="top_bar_color">#4286F5</color>
+    <color name="skip_text_color">#59000000</color>
+
+
+    <color name="grey_trans">#3B000000</color>
+    <color name="grey_trans_15">#26000000</color>
+    <color name="colorDialog">#262626</color>
+    <color name="colorDrawerMenu">#D3262626</color>
+    <color name="colorBodyText">#838383</color>
+    <color name="pro_grey">#6E6E6E</color>
+
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="premium_color">#FF9300</color>
+    <color name="premium_detail_color">#66000000</color>
+    <color name="subscription_unselected_color">#66000000</color>
+
+    <color name="native_ad_bg_color">#ECECEC</color>
+    <color name="phonetic_text_color">#46494e</color>
+    <color name="dictionary_blue_text_color">#4086f5</color>
+
+    <color name="color_white_ads">#ffffff</color>
+
+    <color name="color_shimmer">#cccccc</color>
+
+    <color name="ads_black">#212121</color>
+
+    <color name="color_ads_text_bg">#0979FD</color>
+
+    <color name="color_text_ads_des">#838383</color>
+
+    <color name="sdk_load_bg_color_30">#4DCCCCCC</color>
+
+</resources>

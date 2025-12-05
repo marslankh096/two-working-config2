@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">ページ番号</string>
+    <string name="toast_current_pg_1">現在、</string>
+    <string name="toast_current_pg_2">ページ</string>
+
+    <string name="toast_delete_success_office">正常に削除されました</string>
+    <string name="toast_file_name_not_valid_office">ファイル名が無効です</string>
+    <string name="toast_name_already_exist">名前はすでに存在します</string>
+    <string name="toast_file_rename_successfully_office">ドキュメントの名前が正常に変更されました</string>
+    <string name="more_dialog_rename_office">名前の変更</string>
+    <string name="more_dialog_bookmark_office">ブックマーク</string>
+    <string name="more_dialog_go_to_page_office">ページに移動</string>
+    <string name="more_dialog_create_shortcut_office">ショートカットを作成</string>
+    <string name="more_dialog_convert_to_pdf_office">PDFに変換</string>
+    <string name="more_dialog_share_office">共有</string>
+    <string name="more_dialog_print_office">印刷する</string>
+    <string name="more_dialog_delete_office">消去</string>
+    <string name="details_dialog_details_office">詳細</string>
+    <string name="details_dialog_file_name_office">ファイル名</string>
+    <string name="details_dialog_storage_location_office">ストレージの場所</string>
+    <string name="details_dialog_last_modified_office">最終更新日</string>
+    <string name="details_dialog_file_size_office">ファイルサイズ</string>
+    <string name="rename_dialog_ok_office">わかりました</string>
+    <string name="rename_dialog_done_office">終わり</string>
+    <string name="rename_dialog_hint_office">ファイル名</string>
+    <string name="delete_dialog_delete_title_office">消去</string>
+    <string name="delete_dialog_sub_title_office">このファイルを削除してもよろしいですか?</string>
+    <string name="delete_dialog_done_office">終わり</string>
+    <string name="processing_dialog_title_office">処理</string>
+    <string name="processing_dialog_sub_title_office">電話機にファイルを削除しています。お待ちください...</string>
+    <string name="go_to_page_title_office">ページに移動</string>
+    <string name="processing_print_office">ファイルを印刷する準備ができています。お待ちください...</string>
+
+    <string name="save_dialog_title_office" formatted="false">文書の保存</string>
+    <string name="save_dialog_hint_office" formatted="false">名前</string>
+    <string name="converstion_dialog_process_office">変換中です。数分お待ちください...</string>
+    <string name="converstion_dialog_success_office">成功！</string>
+    <string name="toast_file_conversion_complete">ファイル変換完了</string>
+    <string name="toast_shortcut_exist">ショートカットはすでに存在します</string>
+    <string name="toast_shortcut_launcher_not_support">ショートカットはランチャーでサポートされていません</string>
+
+    <string name="failed_toast_office">失敗した</string>
+</resources>

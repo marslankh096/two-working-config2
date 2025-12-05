@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/subcategoryCL"
+    android:background="#f4f8fe"
+    android:paddingTop="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/subcategoryIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/categoryessentials"
+        android:visibility="invisible"
+        android:layout_marginStart="13.3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subcategoryTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="13.3dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Basic"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/subcategorySizeTV"
+        app:layout_constraintStart_toEndOf="@id/subcategoryIV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subcategorySizeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6.7dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="10"
+        android:textColor="#8F000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/subcategoryArrowIV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/subcategoryArrowIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_subcategory_arrow_right"
+        android:layout_marginEnd="13.3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/subLineView"
+        android:layout_width="0dp"
+        android:layout_height="0.7dp"
+        android:background="#d9e8ff"
+        android:layout_marginTop="13.3dp"
+        app:layout_constraintStart_toStartOf="@id/subcategoryTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subcategoryIV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

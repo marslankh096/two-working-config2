@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="actionOverflowMenuStyle">@style/popupOverflowMenu</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+        <item name="toolbarNavigationButtonStyle">@style/cusToolbarNavigationButtonStyle</item>
+        <item name="toolbarStyle">@style/cusToolbarStyle</item>
+    </style>
+
+    <style name="exitDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">99%</item>
+        <item name="android:windowMinWidthMinor">99%</item>
+    </style>
+
+    <style name="clearDialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="android:windowMinWidthMajor">99%</item>
+        <item name="android:windowMinWidthMinor">99%</item>
+    </style>
+
+    <style name="custom_alert_dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/theme</item>
+        <item name="colorSwitchThumbNormal">@color/grey_300</item>
+        <item name="android:colorForeground">@color/grey_600</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="StartAppTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/win_bg_start</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="BottomNavigationView.Disabled" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+
+    <style name="popupOverflowMenu" parent="@style/Widget.MaterialComponents.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/bg_popup_menu</item>
+    </style>
+
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#ffffff</item>
+    </style>
+
+    <style name="cusToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <!--default is 56dp-->
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="cusToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleMargin">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">14dp</item>
+
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">@drawable/bg_ads_attri</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+    <style name="customDialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="android:windowMinWidthMajor">87%</item>
+        <item name="android:windowMinWidthMinor">87%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">14%</item>
+    </style>
+
+    <style name="customDialogSize" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustNothing|stateVisible</item>
+        <item name="bottomSheetStyle">@style/Theme.translator.BottomSheetModalStyle</item>
+
+    </style>
+
+    <style name="Theme.translator.BottomSheetModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/dlg_exit_bg</item>
+    </style>
+
+
+    <!-- to customize selected tab text -->
+
+    <style name="SelectedTabTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="UnselectedTabTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">ifContentScrolls</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">#8FFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <declare-styleable name="PdfRendererView">
+        <attr name="pdfView_quality" format="enum">
+            <enum name="fast" value="1" />
+            <enum name="normal" value="2" />
+            <enum name="enhanced" value="3" />
+        </attr>
+        <attr name="pdfView_engine" format="enum">
+            <enum name="internal" value="100" />
+            <enum name="google" value="200" />
+        </attr>
+        <attr name="pdfView_showDivider" format="boolean" />
+        <attr name="pdfView_divider" format="reference" />
+        <attr name="pdfView_enableLoadingForPages" format="reference|boolean" />
+        <attr name="pdfView_page_margin" format="reference|dimension"  />
+        <attr name="pdfView_page_marginLeft" format="reference|dimension"  />
+        <attr name="pdfView_page_marginTop" format="reference|dimension" />
+        <attr name="pdfView_page_marginRight" format="reference|dimension"  />
+        <attr name="pdfView_page_marginBottom" format="reference|dimension"  />
+        <attr name="pdfView_disableScreenshots" format="boolean" />
+        <attr name="pdfView_progressBar" format="reference"/>
+        <attr name="pdfView_backgroundColor" format="reference|color"/>
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainCL"
+    android:paddingVertical="8dp"
+    android:paddingStart="14dp"
+    android:paddingEnd="8dp"
+    android:layout_marginTop="6.7dp"
+    android:layout_marginHorizontal="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/bg_app_lang_unselected">
+
+    <ImageView
+        android:id="@+id/flagIV"
+        android:layout_width="32dp"
+        android:layout_height="23dp"
+        android:src="@drawable/italian_flag"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/languageNameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:text="@string/italian_name"
+        android:textAlignment="gravity"
+        android:textColor="#000"
+        android:textDirection="locale"
+        android:textSize="14.7sp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/flagIV"
+        app:layout_constraintEnd_toStartOf="@id/langRB"/>
+
+    <RadioButton
+        android:id="@+id/langRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@drawable/checkbox_tint"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

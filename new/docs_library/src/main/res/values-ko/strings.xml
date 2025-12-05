@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">페이지 번호</string>
+    <string name="toast_current_pg_1">현재는</string>
+    <string name="toast_current_pg_2">페이지</string>
+
+    <string name="toast_delete_success_office">삭제되었습니다.</string>
+    <string name="toast_file_name_not_valid_office">파일 이름이 유효하지 않습니다.</string>
+    <string name="toast_name_already_exist">이름이 이미 존재합니다.</string>
+    <string name="toast_file_rename_successfully_office">문서 이름이 성공적으로 변경되었습니다.</string>
+    <string name="more_dialog_rename_office">이름 바꾸기</string>
+    <string name="more_dialog_bookmark_office">서표</string>
+    <string name="more_dialog_go_to_page_office">페이지로 이동</string>
+    <string name="more_dialog_create_shortcut_office">바로가기 만들기</string>
+    <string name="more_dialog_convert_to_pdf_office">PDF로 변환</string>
+    <string name="more_dialog_share_office">공유하다</string>
+    <string name="more_dialog_print_office">인쇄</string>
+    <string name="more_dialog_delete_office">삭제</string>
+    <string name="details_dialog_details_office">세부</string>
+    <string name="details_dialog_file_name_office">파일 이름</string>
+    <string name="details_dialog_storage_location_office">저장 위치</string>
+    <string name="details_dialog_last_modified_office">마지막 수정</string>
+    <string name="details_dialog_file_size_office">파일 크기</string>
+    <string name="rename_dialog_ok_office">좋아요</string>
+    <string name="rename_dialog_done_office">완료</string>
+    <string name="rename_dialog_hint_office">파일 이름</string>
+    <string name="delete_dialog_delete_title_office">삭제</string>
+    <string name="delete_dialog_sub_title_office">정말로 이 파일을 삭제하시겠습니까?</string>
+    <string name="delete_dialog_done_office">완료</string>
+    <string name="processing_dialog_title_office">처리</string>
+    <string name="processing_dialog_sub_title_office">휴대전화에서 파일을 삭제하는 중입니다. 잠시 기다려 주세요...</string>
+    <string name="go_to_page_title_office">페이지로 이동</string>
+    <string name="processing_print_office">파일을 인쇄할 준비가 되었습니다. 잠시 기다려 주세요...</string>
+
+    <string name="save_dialog_title_office" formatted="false">문서 저장</string>
+    <string name="save_dialog_hint_office" formatted="false">이름</string>
+    <string name="converstion_dialog_process_office">변환이 진행 중입니다. 잠시 기다려 주세요...</string>
+    <string name="converstion_dialog_success_office">성공!</string>
+    <string name="toast_file_conversion_complete">파일 변환 완료</string>
+    <string name="toast_shortcut_exist">바로가기가 이미 존재합니다.</string>
+    <string name="toast_shortcut_launcher_not_support">해당 런처에서는 바로가기가 지원되지 않습니다.</string>
+
+    <string name="failed_toast_office">실패한</string>
+</resources>

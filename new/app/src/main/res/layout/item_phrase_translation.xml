@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentCL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#264086F5"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/sentenceTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="13.3dp"
+        android:textColor="@color/black"
+        android:textSize="14.7sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/translationTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="13.3dp"
+        android:textColor="@color/top_bar_color"
+        android:textSize="14.7sp"
+        app:layout_constraintTop_toBottomOf="@id/sentenceTV" />
+
+    <ImageView
+        android:id="@+id/iv_speak_translated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13.3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="5dp"
+        android:src="@drawable/ic_speaker_translated"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/translationTV"
+        app:tint="#46494E" />
+
+    <ImageView
+        android:id="@+id/iv_copy_translated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="5dp"
+        android:src="@drawable/ic_copy_translated"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_speak_translated"
+        app:layout_constraintEnd_toStartOf="@id/iv_favorite"
+        app:layout_constraintTop_toTopOf="@+id/iv_speak_translated"
+        app:tint="#46494E" />
+
+    <ImageView
+        android:id="@+id/iv_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="5dp"
+        android:src="@drawable/ic_favorite"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_speak_translated"
+        app:layout_constraintEnd_toStartOf="@+id/iv_share_translation"
+        app:layout_constraintTop_toTopOf="@+id/iv_speak_translated" />
+
+    <ImageView
+        android:id="@+id/iv_share_translation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13.3dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="5dp"
+        android:src="@drawable/ic_share_word"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_speak_translated"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_speak_translated"
+        app:tint="#46494E" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

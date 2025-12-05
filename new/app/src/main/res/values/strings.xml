@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="version_1_0" translatable="false">Version 1.0</string>
+    <string name="src_lang" translatable="false">English</string>
+    <string name="tar_lang" translatable="false">French</string>
+    <string name="email_address" translatable="false">appswingstudio@gmail.com</string>
+    <string name="ad_attribution" translatable="false">AD</string>
+    <string name="fb_test_id" translatable="false">407a69e3-d20c-4d76-b3bd-bb19c04bea1b</string>
+    <string name="source_lang" translatable="false">English</string>
+    <string name="target_lang" translatable="false">French</string>
+
+    <string name="african_code" translatable="false">af</string>
+    <string name="arabic_code" translatable="false">ar</string>
+    <string name="bangali_code" translatable="false">bn</string>
+
+    <string name="brazil_code" translatable="false">pt</string>
+    <string name="chinese_code" translatable="false">zh</string>
+    <string name="czech_code" translatable="false">cs</string>
+    <string name="us_code" translatable="false">en</string>
+    <string name="danish_code" translatable="false">da</string>
+    <string name="dutch_code" translatable="false">nl</string>
+    <string name="flipino_code" translatable="false">fil</string>
+    <string name="french_code" translatable="false">fr</string>
+    <string name="german_code" translatable="false">de</string>
+    <string name="hindi_code" translatable="false">hi</string>
+    <string name="indonasia_code" translatable="false">id</string>
+    <string name="italian_code" translatable="false">it</string>
+    <string name="japnese_code" translatable="false">ja</string>
+    <string name="korean_code" translatable="false">ko</string>
+    <string name="malysia_code" translatable="false">ms</string>
+
+    <string name="african_name" translatable="false">Afrikaans</string>
+    <string name="arabic_name" translatable="false">Arabic</string>
+    <string name="bangali_name" translatable="false">Bengali</string>
+
+    <string name="brazil_name" translatable="false">Brazil</string>
+
+    <string name="chinese_name" translatable="false">Chinese</string>
+    <string name="czech_name" translatable="false">Czech</string>
+    <string name="united_states_name" translatable="false">English</string>
+    <string name="danish_name" translatable="false">Danish</string>
+    <string name="dutch_name" translatable="false">Dutch</string>
+    <string name="flipino_name" translatable="false">Filipino</string>
+    <string name="french_name" translatable="false">French</string>
+    <string name="german_name" translatable="false">German</string>
+    <string name="hindi_name" translatable="false">Hindi</string>
+    <string name="indonasia_name" translatable="false">Indonesia</string>
+    <string name="italian_name" translatable="false">Italian</string>
+    <string name="japnese_name" translatable="false">Japanese</string>
+    <string name="korean_name" translatable="false">Korean</string>
+    <string name="malysia_name" translatable="false">Malay</string>
+
+    <string name="app_name">Translate</string>
+    <string name="nav_title">Translator and Dictionary</string>
+    <string name="nav_sub_title">Translate between more than\n100 languages </string>
+    <string name="hint_input_word">Enter text to translate</string>
+    <string name="translate">Translate</string>
+    <string name="no">NO</string>
+    <string name="more">More</string>
+    <string name="less">Less</string>
+    <string name="connection_failed">Internet connection failed</string>
+    <string name="click_to_refresh">Click to refresh</string>
+    <string name="definition">Definition</string>
+    <string name="sample_sentences">Sample Sentences</string>
+    <string name="web_definition">Web definition</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="synonyms">Synonyms</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="cover_hint">Sliding up to open</string>
+    <string name="enable_copy_to_translate">Copy to Translate</string>
+    <string name="lock_screen_word">Word lock screen</string>
+    <string name="ofline_download">Offline Download</string>
+    <string name="update_dialog_packages_to_update">The following packages will be updated:</string>
+    <string name="update_dialog_title">Update now?</string>
+    <string name="update_dialog_update_button">Update</string>
+    <string name="no_update_dialog_message">Everything is up to date!</string>
+
+    <string name="update_progress_dialog_title">Updating</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="offline_on_install_error_title">Installation failed</string>
+    <string name="offline_on_install_error_message">Internet access is required to install language pairs.</string>
+    <string name="offline_on_translate_error_title">Translation failed</string>
+    <string name="offline_on_translate_error_message">Install language pairs to translate without Internet access.</string>
+    <string name="offline_dictionary">Offline Dictionary <font color='#3781D6'><b>(coming soon)</b></font></string>
+    <string name="my_words">My Words</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_friends">Share with Friends</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="term_and_condition">Terms of Services</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="available_for_download">Available for download</string>
+    <string name="already_downloaded">Already downloaded</string>
+    <string name="no_result_found">No result found</string>
+    <string name="additional_settings">Additional Settings</string>
+    <string name="display_floating_widget">Copy and get the translation instantly.</string>
+    <string name="display_sticky">Display the search box in the notification bar.</string>
+    <string name="notification">Notification</string>
+    <string name="receive_notification_about_english_content">Receive notification</string>
+    <string name="show_words_on_lock_screen">Show words and meaning on lock screen.</string>
+    <string name="general_settings">General Settings</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_all_search_history">Clear all the search history below the search box.</string>
+    <string name="about">About</string>
+    <string name="no_dictionary_found">No dictionary found</string>
+    <string name="share_using">App Link</string>
+    <string name="offline_error">Internet connection failed.Download offline package to get translations even when you are offline</string>
+    <string name="offline_not_supported">Selected language pair does not support offline translation</string>
+    <string name="words_phrase_or_sentences">Words, phrase or sentences</string>
+    <string name="favorite_words">No bookmarked word selected</string>
+    <string name="block_ads_detail">Translator &amp; Dictionary is supported by Ads but now you can remove Ads by upgrading to Pro.</string>
+    <string name="rate_us_header">Do you like Translator &amp; Dictionary?</string>
+    <string name="hint_word"><font size="20">Words, phrase or sentences!</font></string>
+
+    <string name="rating_dialog_experience">How was your experience with us?</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_never">Never</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_suggestions">Suggest us what went wrong and we\'ll work on it!</string>
+
+    <string name="text_name_notification">Notification Name</string>
+    <string name="quick_translate">Quick Translate</string>
+
+    <string name="enter_any_word">Enter any word</string>
+    <string name="data_not_found">Could not found any data. Please check Internet Connection or contact administrator</string>
+
+    <string name="str_error_code_403">API key not valid. Please pass a valid API key</string>
+    <string name="str_error_code_400">Invalid value</string>
+    <string name="str_error_bad_pair">Bad language pair</string>
+    <string name="check_internet">Check internet connection</string>
+    <string name="result_not_found">Result not found</string>
+    <string name="stt_error">Error, please check the network and try again</string>
+    <string name="stt_error_audio">Audio recording error, please check the network and try again</string>
+    <string name="stt_error_client">Client side error, please check the network and try again</string>
+    <string name="stt_error_insufficient_permissions">Insufficient permissions, please check permissions and try again</string>
+    <string name="stt_error_network_error">Network error, please check the network and try again</string>
+    <string name="stt_error_network_timeout">Network operation timed out, please check the network and try again</string>
+    <string name="stt_error_no_match">No recognition result matched, please try again</string>
+    <string name="stt_error_recognizer_busy">RecognitionService busy, please try again</string>
+    <string name="stt_error_server">Server sends error status, please check the network and try again</string>
+    <string name="stt_error_speech_timeout">No speech input, please try again</string>
+    <string name="stt_language_unavailable">This language does not support speech recognition. Please input text.</string>
+    <string name="stt_processing">Processing…</string>
+    <string name="stt_recording">Recording…</string>
+    <string name="stt_recording_and_processing">Recording and processing…</string>
+    <string name="stt_success">Success!!</string>
+    <string name="stt_error_no_word">No word recorded. Please Speak in clear mode</string>
+
+    <string name="stt_permission_allow">You need to grant access to require for Speech to Text</string>
+    <string name="mic_permission_deny">Microphone permission denied to use speech to text.</string>
+
+    <string name="stt_language_unavailable_download_pkg">This language does not support speech recognition. Do you want to download Google package to support Speech to Text feature?After Installation please allow MicroPhone permission in order to work properly</string>
+    <string name="stt_google_permission_label">You need to grant access Microphone permission of Google Application. Do you want to allow the permission?</string>
+    <string name="mpopUp">mPopup</string>
+    <string name="language_pack_missing">Missing Language</string>
+    <string name="language_not_supported">Language not supported</string>
+    <string name="toolbar_title_conversation">Conversation</string>
+
+    <string name="confirm_to_delete">Confirm to delete all records</string>
+    <string name="toolbar_ok">OK</string>
+    <string name="copy_success">Copied successfully</string>
+    <string name="search_lang">Search Language</string>
+    <string name="translate_from">Translate From</string>
+    <string name="translate_to">Translate To</string>
+    <string name="package_install">You need to install Google App to use this feature. Please install and try again.</string>
+    <string name="stt_error_device">This device does not support Voice Recognition.</string>
+    <string name="enabled_copy_to_translate">Copy to Translate is on</string>
+    <string name="more_options">More options</string>
+    <string name="exit_rating_title">Your good rating is valuable for us. Please support our work </string>
+    <string name="exit_rating_message">Thank you for your feedback</string>
+    <string name="exit">Do you want to exit?</string>
+    <string name="exit_header">Exit</string>
+    <string name="label_splash_main_title">Language Translator</string>
+    <string name="label_loading">Loading…</string>
+    <string name="action_terms">Read Our <font color='#4286f5'><u>Privacy Policy</u></font> &amp; Tap \"Start\" to accept the <font color='#4286f5'><u>Terms of Services</u></font> </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="action_privacy"><font color='#000000'><u>Privacy</u></font> &amp; <font color='#000000'><u>Terms</u></font> </string>
+
+    <string name="terms_service"><u>Terms of Services</u></string>
+    <string name="terms_privacy"><u>Privacy Policy</u></string>
+    <string name="email_subject">Your feedback. Translator &amp; Dictionary</string>
+    <string name="message_app_install">You need to install Google Application in order to use this feature</string>
+
+    <string name="is_premium">is_premium</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="favorite_sub">Check your favorite translation</string>
+    <string name="label_rate_us">Rate Us!</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="this_action_may_contain_ad">This action may contain Ads.</string>
+    <string name="language">Language</string>
+    <string name="confirm_exit">Confirm Exit???</string>
+    <string name="do_you_want_to_exit_from_app">Do you want to exit from app?</string>
+    <string name="loading_ad">Loading Ad</string>
+    <string name="gallery">Gallery</string>
+    <string name="flash_off">Flash Off</string>
+    <string name="retake">Retake</string>
+    <string name="rotate">Rotate</string>
+    <string name="done">Done</string>
+    <string name="turn_off_the_auto_translation">Turn off the auto translation</string>
+    <string name="conversation">Conversation</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="share_with_friends">Share with Friends</string>
+    <string name="ad_loading">Ad Loading</string>
+    <string name="rate_us_">Rate Us!</string>
+    <string name="could_you_leave_us_a_nice_review_nit_really_helps">Could you leave us a nice review?\nIt Really helps!</string>
+    <string name="delete_history">Delete History</string>
+    <string name="history_will_be_permanently_deleted">History will be permanently deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="permission_required">Permission Required!</string>
+    <string name="overlay_permission_is_required_to_enable_the_lock_screen_do_you_want_to_allow_the_permission">Overlay Permission is required to enable the lock screen. Do you want to allow the permission?</string>
+    <string name="yes">YES</string>
+    <string name="camera">Camera</string>
+    <string name="history">History</string>
+    <string name="select_language">Select Language</string>
+    <string name="my_history">My History</string>
+    <string name="no_favorite_found_">No Favorite found</string>
+    <string name="no_history_found_">No History found</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="text_translation">Text Translation</string>
+    <string name="camera_translation">Camera Translation</string>
+    <string name="conversation_detail">No more language struggles. Translate any conversation with ease.</string>
+    <string name="camera_detail">Translate any text instantly - just point your camera at signs, documents, or bold text.</string>
+    <string name="text_detail">Conquer communication gaps! Translate between any languages with ease, for texts of all lengths.</string>
+    <string name="hintText">Tap Mic to Speak</string>
+    <string name="this_feature_is_not_available_offline">This Feature is not available offline</string>
+    <string name="error">Error</string>
+    <string name="cropping_failed">Cropping failed</string>
+    <string name="check_internet_connection">Check Internet Connection</string>
+    <string name="text_copied_successfully">Text copied successfully</string>
+    <string name="copy_another_data">Copy another data</string>
+    <string name="please_copy_again">Please Copy again</string>
+    <string name="please_copy_valid_input_word">Please copy valid input word</string>
+    <string name="select_valid_input_word">Select valid input word</string>
+    <string name="billing_failed_to_initialize">Billing failed to initialize</string>
+    <string name="speech_input_is_not_available_for_selected_language">Speech Input is not available for selected Language %1$s</string>
+    <string name="no_text_detected">No text detected</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="synonyms_and_antonyms"><![CDATA[Synonyms & Antonyms]]></string>
+    <string name="find_your_word_by_using_our_search">Find your word by using our search</string>
+    <string name="clear_all_history">Clear All History</string>
+    <string name="recent_word">Recent Word</string>
+    <string name="word_of_the_day">Word of the Day</string>
+    <string name="bookmarked">Bookmarked</string>
+    <string name="no_bookmarked">No Bookmarked!</string>
+    <string name="translate_and_bookmark_your_best_nstreamline_your_experience">Translate and Bookmark Your Best,\nStreamline Your Experience</string>
+    <string name="label_selected">%1$d Selected</string>
+    <string name="delete_permanently">Delete Permanently</string>
+    <string name="are_you_sure_you_want_to_delete_selected_words">Are you sure you want to delete selected words</string>
+    <string name="result">Result</string>
+    <string name="subscription_detail">- Subscribed users have unlimited use and access to all of its Premium features, without any ads.\n- Non-subscribed users can continuously use the app with advertisements, and have a limited use of Premium features.\n- Users can subscribe with different plans: Weekly (%1$s),Monthly (%2$s),Yearly (%3$s) auto-renewing subscriptions.\n- Payment will be charged to your Google Account at confirmation of purchase.\n- Subscriptions automatically renew unless auto-renew is disabled at least 24 hours before the end of the current period.\n- Account will be charged for renewal within 24-hour prior to the end of the current period, and identify the cost of renewal.\n- Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.\n- Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user\'s Account Settings after purchase. Note that uninstalling the app will not cancel your subscription.\n1. On your Android phone or tablet, let\'s open the Google Play Store.\n2. Check if you\'re signed in to the correct Google Account.\n3. Tap Menu Subscriptions and Select the subscription you want to cancel.\n4. Tap Cancel subscription.</string>
+    <string name="unlock_all_features">Unlock All Features</string>
+    <string name="unlimited_access_to_all_features">Unlimited access to all Features</string>
+    <string name="block_ads">Block ads</string>
+    <string name="not_be_disturbed_by_ads_anymore">Not be disturbed by ads anymore</string>
+    <string name="convenient_translate">Convenient translate</string>
+    <string name="translate_image_by_one_click">Translate image by one click</string>
+    <string name="easily_communicate">Easily communicate</string>
+    <string name="convo_translator_in_all_languages">Convo translator in all languages</string>
+    <string name="upgrade_now">UPGRADE NOW</string>
+    <string name="subscription_terms">Subscription Terms</string>
+    <string name="notification_permission">Notification Permission</string>
+    <string name="allow_notifications_for_accurate_and_real_time_updates_stay_informed_effortlessly">Allow notifications for accurate and real-time updates. Stay informed effortlessly.</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="just_1_s_weekly_cancel_anytime">Just <font color='#fe7e03'>%1$s</font>/weekly. Cancel anytime.</string>
+    <string name="save_percent">Save %1$d%</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="word_not_found">Word not found</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="clear">CLEAR</string>
+    <string name="new_translation">NEW TRANSLATION</string>
+    <string name="new_translate">New Translate</string>
+    <string name="added_to_favourite">Added to Favourite</string>
+    <string name="phrases">Phrases</string>
+    <string name="files">Files</string>
+    <string name="no_text_found">No text found</string>
+    <string name="select_document">Select Document</string>
+    <string name="translate_files">Translate Files</string>
+    <string name="upload_file_doc_docx_pdf_ppt">Upload file doc, txt, pdf, ppt</string>
+    <string name="browse">Browse</string>
+    <string name="enter_a_valid_number">Enter a valid number</string>
+    <string name="enter_page_number_to_translate">Enter page number to translate</string>
+    <string name="go_to_page">Go to page</string>
+    <string name="no_internet_connected">No internet connected</string>
+    <string name="check_your_internet_connection_and_try_again">Check your internet connection and try again</string>
+    <string name="turn_on_mobile_data">Turn on Mobile Data</string>
+    <string name="turn_on_wi_fi">Turn on Wi-Fi</string>
+    <string name="voice">Voice</string>
+    <string name="home">Home</string>
+
+    <string name="txt_ad">AD</string>
+
+
+<!--    //////////////////////////////-->
+    <string name="internet_toast">Please check your internet connection</string>
+    <string name="google_service_not_ready">Google Play Service not ready yet</string>
+    <string name="life_time">Lifetime</string>
+
+    <string name="yearly_data">%1$s Yearly</string>
+    <string name="monthly_data">%1$s Monthly</string>
+    <string name="life_time_data">%1$s Lifetime</string>
+
+    <string name="yearly_word">Year</string>
+    <string name="monthly_word">Month</string>
+    <string name="life_time_word">Lifetime</string>
+
+    <string name="free_trial_txt">days free then</string>
+
+    <string name="subscription_text">Subscription Details\n\u25CF Trial Period: Enjoy a 3-day free trial.\n\u25CF Conversion to Paid Subscription: After the trial , your subscription will automatically convert to a paid subscription at (%1$s) unless cancelled before the trial ends.\n\u25CF Subscription will auto renew and cancel anytime.\n\u25CF Subscribers enjoy all Premium features and an ad-free experience.\n\u25CF Non-subscribers see ads and have limited access to Premium features.\n\u25CF Subscriptions: (%2$s).\n\u25CF Payment charged to Google Account upon purchase.\n\u25CF Subscriptions auto-renew unless disabled 24 hours before the end of the current period.\n\u25CF Renewal billed 24 hours before current period ends.\n\u25CF No refunds for unused free trial time if you subscribe.\n\u25CF Manage subscriptions and disable auto-renew in Account Settings.\n\u25CF Uninstalling the app won\'t cancel your subscription.\n\n\u25CF To cancel your subscription:\n1. Open Google Play Store on your Android device.\n2. Check your Google Account.\n3. Tap Menu, then Subscriptions.\n4. Select the subscription and tap Cancel.\n</string>
+    <string name="subscription_text_seven_day">Subscription Details\n\u25CF Trial Period: Enjoy a 7-day free trial.\n\u25CF Conversion to Paid Subscription: After the trial , your subscription will automatically convert to a paid subscription at (%1$s) unless cancelled before the trial ends.\n\u25CF Subscription will auto renew and cancel anytime.\n\u25CF Subscribers enjoy all Premium features and an ad-free experience.\n\u25CF Non-subscribers see ads and have limited access to Premium features.\n\u25CF Subscriptions: (%2$s).\n\u25CF Payment charged to Google Account upon purchase.\n\u25CF Subscriptions auto-renew unless disabled 24 hours before the end of the current period.\n\u25CF Renewal billed 24 hours before current period ends.\n\u25CF No refunds for unused free trial time if you subscribe.\n\u25CF Manage subscriptions and disable auto-renew in Account Settings.\n\u25CF Uninstalling the app won\'t cancel your subscription.\n\n\u25CF To cancel your subscription:\n1. Open Google Play Store on your Android device.\n2. Check your Google Account.\n3. Tap Menu, then Subscriptions.\n4. Select the subscription and tap Cancel.\n</string>
+
+    <string name="all_time_purchase">Lifetime Premium Details\n\u25CF Enjoy all Premium features and an ad-free experience for a lifetime.\n\u25CF One-time payment of (%1$s).\n\u25CF Payment charged to Google Account upon purchase.\n\u25CF No auto-renewal required, as it is a one-time purchase.\n\u25CF No refunds for any portion of the one-time payment.\n\u25CF Uninstalling the app won\'t cancel your lifetime subscription.\n</string>
+
+    <string name="just_lifetime">Just %1$s/Lifetime</string>
+    <string name="just_monthly">Just %1$s/Monthly</string>
+    <string name="just_yearly">Just %1$s/Yearly</string>
+
+    <string name="subscription_detail_heading">Subscription Details</string>
+    <string name="premium_text_1">\u25CF Trial Period: Enjoy a  %1$s-day free trial.</string>
+    <string name="premium_text_2">\u25CF Conversion to Paid Subscription: After the trial , your subscription will automatically convert to a paid subscription at (%1$s) unless cancelled before the trial ends.</string>
+    <string name="premium_text_3">\u25CF Subscription will auto renew and cancel anytime.</string>
+    <string name="premium_text_4">\u25CF Subscribers enjoy all Premium features and an ad-free experience.</string>
+    <string name="premium_text_5">\u25CF Non-subscribers see ads and have limited access to Premium features.</string>
+    <string name="premium_text_6">\u25CF Subscriptions: (%1$s).</string>
+    <string name="premium_text_7">\u25CF Payment charged to Google Account upon purchase.</string>
+    <string name="premium_text_8">\u25CF Subscriptions auto-renew unless disabled 24 hours before the end of the current period.</string>
+    <string name="premium_text_9">\u25CF Renewal billed 24 hours before current period ends.</string>
+    <string name="premium_text_10">\u25CF No refunds for unused free trial time if you subscribe.</string>
+    <string name="premium_text_11">\u25CF Manage subscriptions and disable auto-renew in Account Settings.</string>
+    <string name="premium_text_12">\u25CF Uninstalling the app won\'t cancel your subscription.</string>
+    <string name="premium_text_13">\u25CF To cancel your subscription:</string>
+    <string name="premium_text_14">1. Open Google Play Store on your Android device.</string>
+    <string name="premium_text_15">2. Check your Google Account.</string>
+    <string name="premium_text_16">3. Tap Menu, then Subscriptions.</string>
+    <string name="premium_text_17">4. Select the subscription and tap Cancel.</string>
+
+</resources>

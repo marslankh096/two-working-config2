@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AdManagerX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ad_attribution">AD</string>
+    <string name="ad">AD</string>
+    <string name="is_premium">is_premium</string>
+</resources>

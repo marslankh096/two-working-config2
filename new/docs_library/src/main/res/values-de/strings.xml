@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">Seitennummer</string>
+    <string name="toast_current_pg_1">Derzeit gibt es</string>
+    <string name="toast_current_pg_2">Seiten</string>
+
+    <string name="toast_delete_success_office">Erfolgreich gelöscht</string>
+    <string name="toast_file_name_not_valid_office">Der Dateiname ist ungültig</string>
+    <string name="toast_name_already_exist">Name existiert bereits</string>
+    <string name="toast_file_rename_successfully_office">Dokument erfolgreich umbenannt</string>
+    <string name="more_dialog_rename_office">Umbenennen</string>
+    <string name="more_dialog_bookmark_office">Lesezeichen</string>
+    <string name="more_dialog_go_to_page_office">Gehe zur Seite</string>
+    <string name="more_dialog_create_shortcut_office">Verknüpfung erstellen</string>
+    <string name="more_dialog_convert_to_pdf_office">In PDF konvertieren</string>
+    <string name="more_dialog_share_office">Aktie</string>
+    <string name="more_dialog_print_office">Drucken</string>
+    <string name="more_dialog_delete_office">Löschen</string>
+    <string name="details_dialog_details_office">Einzelheiten</string>
+    <string name="details_dialog_file_name_office">Dateiname</string>
+    <string name="details_dialog_storage_location_office">Lagerraum</string>
+    <string name="details_dialog_last_modified_office">Zuletzt bearbeitet</string>
+    <string name="details_dialog_file_size_office">Dateigröße</string>
+    <string name="rename_dialog_ok_office">OK</string>
+    <string name="rename_dialog_done_office">Erledigt</string>
+    <string name="rename_dialog_hint_office">Dateiname</string>
+    <string name="delete_dialog_delete_title_office">Löschen</string>
+    <string name="delete_dialog_sub_title_office">Sind Sie sicher, dass Sie diese Datei löschen möchten?</string>
+    <string name="delete_dialog_done_office">Erledigt</string>
+    <string name="processing_dialog_title_office">wird bearbeitet</string>
+    <string name="processing_dialog_sub_title_office">Dateien werden auf dem Telefon gelöscht. Bitte warten...</string>
+    <string name="go_to_page_title_office">Gehe zur Seite</string>
+    <string name="processing_print_office">Die Datei wird zum Drucken bereit sein, bitte warten...</string>
+
+    <string name="save_dialog_title_office">Dokument speichern</string>
+    <string name="save_dialog_hint_office">Name</string>
+    <string name="converstion_dialog_process_office">Konvertierung läuft, bitte warten Sie ein paar Minuten...</string>
+    <string name="converstion_dialog_success_office">Erfolg!</string>
+    <string name="toast_file_conversion_complete">Dateikonvertierung abgeschlossen</string>
+    <string name="toast_shortcut_exist">Die Verknüpfung ist bereits vorhanden</string>
+    <string name="toast_shortcut_launcher_not_support">Die Verknüpfung wird von Ihrem Launcher nicht unterstützt</string>
+
+    <string name="failed_toast_office">Fehlgeschlagen</string>
+
+</resources>

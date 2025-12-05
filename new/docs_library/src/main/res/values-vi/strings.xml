@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="page_no_text_office">Số trang</string>
+    <string name="toast_current_pg_1">Hiện tại có</string>
+    <string name="toast_current_pg_2">Trang</string>
+
+    <string name="toast_delete_success_office">Đã xoá thành công</string>
+    <string name="toast_file_name_not_valid_office">Tên tệp không hợp lệ</string>
+    <string name="toast_name_already_exist">Tên đã tồn tại</string>
+    <string name="toast_file_rename_successfully_office">Đã đổi tên tài liệu thành công</string>
+    <string name="more_dialog_rename_office">Đổi tên</string>
+    <string name="more_dialog_bookmark_office">Đánh dấu</string>
+    <string name="more_dialog_go_to_page_office">Đi tới trang</string>
+    <string name="more_dialog_create_shortcut_office">Tạo lối tắt</string>
+    <string name="more_dialog_convert_to_pdf_office">Chuyển đổi sang PDF</string>
+    <string name="more_dialog_share_office">Chia sẻ</string>
+    <string name="more_dialog_print_office">In</string>
+    <string name="more_dialog_delete_office">Xóa bỏ</string>
+    <string name="details_dialog_details_office">Chi tiết</string>
+    <string name="details_dialog_file_name_office">Tên tập tin</string>
+    <string name="details_dialog_storage_location_office">Khu vực lưu trữ</string>
+    <string name="details_dialog_last_modified_office">Sửa đổi lần cuối</string>
+    <string name="details_dialog_file_size_office">Kích thước tập tin</string>
+    <string name="rename_dialog_ok_office">ĐƯỢC RỒI</string>
+    <string name="rename_dialog_done_office">Xong</string>
+    <string name="rename_dialog_hint_office">Tên tệp</string>
+    <string name="delete_dialog_delete_title_office">Xóa bỏ</string>
+    <string name="delete_dialog_sub_title_office">Bạn có chắc chắn muốn xóa tập tin này?</string>
+    <string name="delete_dialog_done_office">Xong</string>
+    <string name="processing_dialog_title_office">Xử lý</string>
+    <string name="processing_dialog_sub_title_office">Đang xóa tập tin vào điện thoại, vui lòng đợi...</string>
+    <string name="go_to_page_title_office">Đi tới trang</string>
+    <string name="processing_print_office">Tệp đang chuẩn bị in, vui lòng đợi...</string>
+
+    <string name="save_dialog_title_office">Lưu tài liệu</string>
+    <string name="save_dialog_hint_office">Tên</string>
+    <string name="converstion_dialog_process_office">Quá trình chuyển đổi đang diễn ra, vui lòng đợi vài phút...</string>
+    <string name="converstion_dialog_success_office">Thành công!</string>
+    <string name="toast_file_conversion_complete">Chuyển đổi tập tin hoàn tất</string>
+    <string name="toast_shortcut_exist">Lối tắt đã tồn tại</string>
+    <string name="toast_shortcut_launcher_not_support">Phím tắt không được trình khởi chạy của bạn hỗ trợ</string>
+
+    <string name="failed_toast_office">Thất bại</string>
+</resources>

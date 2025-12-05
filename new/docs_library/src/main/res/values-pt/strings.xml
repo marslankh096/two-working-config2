@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">Número de página</string>
+    <string name="toast_current_pg_1">Há atualmente</string>
+    <string name="toast_current_pg_2">Páginas</string>
+
+    <string name="toast_delete_success_office">Apagado com sucesso</string>
+    <string name="toast_file_name_not_valid_office">O nome do arquivo não é válido</string>
+    <string name="toast_name_already_exist">O nome já existe</string>
+    <string name="toast_file_rename_successfully_office">Documento renomeado com sucesso</string>
+    <string name="more_dialog_rename_office">Renomear</string>
+    <string name="more_dialog_bookmark_office">marca páginas</string>
+    <string name="more_dialog_go_to_page_office">Vá para página</string>
+    <string name="more_dialog_create_shortcut_office">Criar atalho</string>
+    <string name="more_dialog_convert_to_pdf_office">Converter para PDF</string>
+    <string name="more_dialog_share_office">Compartilhar</string>
+    <string name="more_dialog_print_office">Imprimir</string>
+    <string name="more_dialog_delete_office">Excluir</string>
+    <string name="details_dialog_details_office">Detalhes</string>
+    <string name="details_dialog_file_name_office">Nome do arquivo</string>
+    <string name="details_dialog_storage_location_office">Local de armazenamento</string>
+    <string name="details_dialog_last_modified_office">Última modificação</string>
+    <string name="details_dialog_file_size_office">Tamanho do arquivo</string>
+    <string name="rename_dialog_ok_office">OK</string>
+    <string name="rename_dialog_done_office">Feito</string>
+    <string name="rename_dialog_hint_office">Nome do arquivo</string>
+    <string name="delete_dialog_delete_title_office">Excluir</string>
+    <string name="delete_dialog_sub_title_office">Tem certeza de que deseja excluir este arquivo?</string>
+    <string name="delete_dialog_done_office">Feito</string>
+    <string name="processing_dialog_title_office">Em processamento</string>
+    <string name="processing_dialog_sub_title_office">Excluindo arquivos do telefone, aguarde...</string>
+    <string name="go_to_page_title_office">Vá para página</string>
+    <string name="processing_print_office">O arquivo estará pronto para impressão, aguarde...</string>
+
+    <string name="save_dialog_title_office">Salvar documento</string>
+    <string name="save_dialog_hint_office">Nome</string>
+    <string name="converstion_dialog_process_office">Conversão em andamento. Aguarde alguns minutos...</string>
+    <string name="converstion_dialog_success_office">Sucesso!</string>
+    <string name="toast_file_conversion_complete">Conversão de arquivo concluída</string>
+    <string name="toast_shortcut_exist">O atalho já existe</string>
+    <string name="toast_shortcut_launcher_not_support">O atalho não é compatível com seu inicializador</string>
+
+    <string name="failed_toast_office">Fracassado</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">पृष्ठ संख्या</string>
+    <string name="toast_current_pg_1">वहां पर अभी</string>
+    <string name="toast_current_pg_2">पृष्ठों</string>
+
+    <string name="toast_delete_success_office">सफलतापूर्वक मिटाया गया</string>
+    <string name="toast_file_name_not_valid_office">फ़ाइल नाम मान्य नहीं है</string>
+    <string name="toast_name_already_exist">नाम पहले से मौजूद है</string>
+    <string name="toast_file_rename_successfully_office">दस्तावेज़ का नाम सफलतापूर्वक बदला गया</string>
+    <string name="more_dialog_rename_office">नाम बदलें</string>
+    <string name="more_dialog_bookmark_office">बुकमार्क</string>
+    <string name="more_dialog_go_to_page_office">पृष्ठ पर जाओ</string>
+    <string name="more_dialog_create_shortcut_office">शॉर्टकट बनाएं</string>
+    <string name="more_dialog_convert_to_pdf_office">पीडीएफ में कनवर्ट करें</string>
+    <string name="more_dialog_share_office">शेयर करना</string>
+    <string name="more_dialog_print_office">छाप</string>
+    <string name="more_dialog_delete_office">मिटाना</string>
+    <string name="details_dialog_details_office">विवरण</string>
+    <string name="details_dialog_file_name_office">फ़ाइल का नाम</string>
+    <string name="details_dialog_storage_location_office">रखने की जगह</string>
+    <string name="details_dialog_last_modified_office">अंतिम बार संशोधित</string>
+    <string name="details_dialog_file_size_office">फ़ाइल का साइज़</string>
+    <string name="rename_dialog_ok_office">ठीक है</string>
+    <string name="rename_dialog_done_office">हो गया</string>
+    <string name="rename_dialog_hint_office">फ़ाइल का नाम</string>
+    <string name="delete_dialog_delete_title_office">मिटाना</string>
+    <string name="delete_dialog_sub_title_office">क्या आप द्वारा इस फाइल को हटाया जाना सुनिश्चित है?</string>
+    <string name="delete_dialog_done_office">हो गया</string>
+    <string name="processing_dialog_title_office">प्रसंस्करण</string>
+    <string name="processing_dialog_sub_title_office">फ़ोन से फ़ाइलें हटाई जा रही हैं, कृपया प्रतीक्षा करें...</string>
+    <string name="go_to_page_title_office">पृष्ठ पर जाओ</string>
+    <string name="processing_print_office">फ़ाइल प्रिंट होने के लिए तैयार होने वाली है, कृपया प्रतीक्षा करें...</string>
+
+    <string name="save_dialog_title_office" formatted="false">दस्तावेज़ सहेजें</string>
+    <string name="save_dialog_hint_office" formatted="false">नाम</string>
+    <string name="converstion_dialog_process_office">रूपांतरण प्रगति पर है, कृपया कुछ मिनट प्रतीक्षा करें...</string>
+    <string name="converstion_dialog_success_office">सफलता!</string>
+    <string name="toast_file_conversion_complete">फ़ाइल रूपांतरण पूर्ण</string>
+    <string name="toast_shortcut_exist">शॉर्टकट पहले से मौजूद है</string>
+    <string name="toast_shortcut_launcher_not_support">शॉर्टकट आपके लॉन्चर द्वारा समर्थित नहीं है</string>
+
+    <string name="failed_toast_office">असफल</string>
+</resources>

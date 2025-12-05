@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.translateall.language.free.translator.dictionary.speechtext.learnenglish",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 62,
+      "versionName": "1.0.61",
+      "outputFile": "translator_1_apps_wing_vc_62_vn_1.0.61_signed(appwings)-release.apk"
+    }
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/translator_1_apps_wing_vc_62_vn_1.0.61_signed(appwings)-release.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/translator_1_apps_wing_vc_62_vn_1.0.61_signed(appwings)-release.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 24
+}

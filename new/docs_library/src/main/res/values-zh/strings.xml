@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">页码</string>
+    <string name="toast_current_pg_1">目前有</string>
+    <string name="toast_current_pg_2">页数</string>
+
+    <string name="toast_delete_success_office">删除成功</string>
+    <string name="toast_file_name_not_valid_office">文件名无效</string>
+    <string name="toast_name_already_exist">名称已存在</string>
+    <string name="toast_file_rename_successfully_office">文档重命名成功</string>
+    <string name="more_dialog_rename_office">改名</string>
+    <string name="more_dialog_bookmark_office">书签</string>
+    <string name="more_dialog_go_to_page_office">转到页面</string>
+    <string name="more_dialog_create_shortcut_office">创建快捷方式</string>
+    <string name="more_dialog_convert_to_pdf_office">转换为 PDF</string>
+    <string name="more_dialog_share_office">分享</string>
+    <string name="more_dialog_print_office">打印</string>
+    <string name="more_dialog_delete_office">删除</string>
+    <string name="details_dialog_details_office">细节</string>
+    <string name="details_dialog_file_name_office">文件名</string>
+    <string name="details_dialog_storage_location_office">存储位置</string>
+    <string name="details_dialog_last_modified_office">上一次更改</string>
+    <string name="details_dialog_file_size_office">文件大小</string>
+    <string name="rename_dialog_ok_office">好的</string>
+    <string name="rename_dialog_done_office">完毕</string>
+    <string name="rename_dialog_hint_office">文件名</string>
+    <string name="delete_dialog_delete_title_office">删除</string>
+    <string name="delete_dialog_sub_title_office">您确定要删除该文件吗？</string>
+    <string name="delete_dialog_done_office">完毕</string>
+    <string name="processing_dialog_title_office">加工</string>
+    <string name="processing_dialog_sub_title_office">正在删除手机文件，请稍候...</string>
+    <string name="go_to_page_title_office">转到页面</string>
+    <string name="processing_print_office">文件即将打印，请稍候...</string>
+
+    <string name="save_dialog_title_office">保存文档</string>
+    <string name="save_dialog_hint_office">姓名</string>
+    <string name="converstion_dialog_process_office">转换正在进行中，请稍等几分钟...</string>
+    <string name="converstion_dialog_success_office">成功！</string>
+    <string name="toast_file_conversion_complete">文件转换完成</string>
+    <string name="toast_shortcut_exist">快捷方式已存在</string>
+    <string name="toast_shortcut_launcher_not_support">您的启动器不支持快捷方式</string>
+
+    <string name="failed_toast_office">失败的</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentCL"
+    android:padding="13.3dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    android:background="@drawable/bg_recent_word">
+
+    <TextView
+        android:id="@+id/wordTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="asdsadsadsad"
+        android:textSize="17.3dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginEnd="4dp"
+        app:layout_goneMarginEnd="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/checkIV"/>
+
+    <TextView
+        android:id="@+id/detailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13.3dp"
+        android:text="asdasdasdsadasddasdsadasdasdsdfhgashfashdjsadadisabdias basbdksadas dja skdas djsadkansd knasd kasdasjk ajskcn asnd sdhbf"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wordTV"/>
+
+    <!--<ImageView
+        android:id="@+id/copyIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dictionary_copy"
+        android:layout_marginTop="18.7dp"
+        android:padding="4dp"
+        android:layout_marginEnd="22dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toBottomOf="@id/detailTV"
+        app:layout_constraintEnd_toStartOf="@id/bookmarkIV"
+        app:layout_constraintBottom_toBottomOf="parent"/>-->
+
+    <ImageView
+        android:id="@+id/bookmarkIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        android:src="@drawable/ic_dictionary_bookmark_unselected"
+        app:layout_constraintEnd_toStartOf="@id/shareIV"
+        app:layout_constraintTop_toTopOf="@+id/shareIV" />
+
+    <ImageView
+        android:id="@+id/shareIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        android:src="@drawable/ic_dictionary_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/wordTV" />
+
+    <ImageView
+        android:id="@+id/checkIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_recent_unchcek"
+        android:padding="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@id/wordTV"
+        app:layout_constraintBottom_toBottomOf="@id/wordTV"
+        app:layout_constraintEnd_toStartOf="@id/bookmarkIV" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/actionsGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="shareIV, bookmarkIV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

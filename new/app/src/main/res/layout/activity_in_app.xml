@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_back_ground"
+    android:fitsSystemWindows="false"
+    tools:context=".ui.activities.inApp.InAppActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="16dp">
+
+            <ImageView
+                android:id="@+id/closeIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_cross_premium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:text="@string/unlock_all_features"
+                android:textColor="@color/black"
+                android:textSize="26.7sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/closeIV" />
+
+            <TextView
+                android:id="@+id/subtitleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:text="@string/unlimited_access_to_all_features"
+                android:textColor="@color/premium_detail_color"
+                android:textSize="16.7sp"
+                app:layout_constraintTop_toBottomOf="@id/titleTV" />
+
+            <ImageView
+                android:id="@+id/noAdIV"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="44dp"
+                android:src="@drawable/ic_no_ad"
+                app:layout_constraintStart_toEndOf="@id/guidelineStart"
+                app:layout_constraintTop_toBottomOf="@id/subtitleTV" />
+
+            <TextView
+                android:id="@+id/noAdTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17.6dp"
+                android:layout_marginTop="-2dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="start"
+                android:text="@string/block_ads"
+                android:textColor="@color/black"
+                android:textSize="17.3sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/guidelineEnd"
+                app:layout_constraintStart_toEndOf="@id/noAdIV"
+                app:layout_constraintTop_toTopOf="@id/noAdIV" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/not_be_disturbed_by_ads_anymore"
+                android:textColor="@color/premium_detail_color"
+                android:textSize="14.7sp"
+                app:layout_constraintEnd_toStartOf="@id/guidelineEnd"
+                app:layout_constraintStart_toStartOf="@id/noAdTV"
+                app:layout_constraintTop_toBottomOf="@id/noAdTV" />
+
+            <ImageView
+                android:id="@+id/cameraIV"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="36dp"
+                android:src="@drawable/ic_camera_premium"
+                app:layout_constraintStart_toEndOf="@id/guidelineStart"
+                app:layout_constraintTop_toBottomOf="@id/noAdIV" />
+
+            <TextView
+                android:id="@+id/cameraTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17.6dp"
+                android:layout_marginTop="-2dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="start"
+                android:text="@string/convenient_translate"
+                android:textColor="@color/black"
+                android:textSize="17.3sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/guidelineEnd"
+                app:layout_constraintStart_toEndOf="@id/cameraIV"
+                app:layout_constraintTop_toTopOf="@id/cameraIV" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/translate_image_by_one_click"
+                android:textColor="@color/premium_detail_color"
+                android:textSize="14.7sp"
+                app:layout_constraintEnd_toStartOf="@id/guidelineEnd"
+                app:layout_constraintStart_toStartOf="@id/cameraTV"
+                app:layout_constraintTop_toBottomOf="@id/cameraTV" />
+
+            <ImageView
+                android:id="@+id/messageIV"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="36dp"
+                android:src="@drawable/ic_message_premium"
+                app:layout_constraintStart_toEndOf="@id/guidelineStart"
+                app:layout_constraintTop_toBottomOf="@id/cameraIV" />
+
+            <TextView
+                android:id="@+id/messageTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17.6dp"
+                android:layout_marginTop="-2dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="start"
+                android:text="@string/easily_communicate"
+                android:textColor="@color/black"
+                android:textSize="17.3sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/guidelineEnd"
+                app:layout_constraintStart_toEndOf="@id/messageIV"
+                app:layout_constraintTop_toTopOf="@id/messageIV" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/convo_translator_in_all_languages"
+                android:textColor="@color/premium_detail_color"
+                android:textSize="14.7sp"
+                app:layout_constraintEnd_toStartOf="@id/guidelineEnd"
+                app:layout_constraintStart_toStartOf="@id/messageTV"
+                app:layout_constraintTop_toBottomOf="@id/messageTV" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="42dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="42dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/yearlyCL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="42dp"
+                android:background="@drawable/bg_premium_selected"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/messageIV">
+
+                <ImageView
+                    android:id="@+id/yearlyCheckIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_premium_checked"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/yearlyTitleTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/yearly"
+                    android:textColor="@color/black"
+                    android:textSize="16.3sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/yearlySaveTV"
+                    app:layout_constraintStart_toEndOf="@id/yearlyCheckIV"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/yearlyPriceTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text=""
+                    android:textColor="#B3000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/yearlySaveTV"
+                    app:layout_constraintStart_toStartOf="@id/yearlyTitleTV"
+                    app:layout_constraintTop_toBottomOf="@id/yearlyTitleTV" />
+
+                <TextView
+                    android:id="@+id/yearlySaveTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_premium_save"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="7dp"
+                    android:text="@string/save_percent"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/monthlyCL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_premium_unselected"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/yearlyCL">
+
+                <ImageView
+                    android:id="@+id/monthlyCheckIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_premium_unchecked"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/monthlyTitleTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/monthly"
+                    android:textColor="@color/subscription_unselected_color"
+                    android:textSize="16.3sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/monthlySaveTV"
+                    app:layout_constraintStart_toEndOf="@id/monthlyCheckIV"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/monthlyPriceTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/subscription_unselected_color"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/monthlySaveTV"
+                    app:layout_constraintStart_toStartOf="@id/monthlyTitleTV"
+                    app:layout_constraintTop_toBottomOf="@id/monthlyTitleTV" />
+
+                <TextView
+                    android:id="@+id/monthlySaveTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_premium_save"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="7dp"
+                    android:text="@string/save_percent"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lifeTimeCL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_premium_unselected"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/monthlyCL">
+
+                <ImageView
+                    android:id="@+id/lifeTimeCheckIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_premium_unchecked"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/lifetTimeTitleTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/weekly"
+                    android:textColor="@color/subscription_unselected_color"
+                    android:textSize="16.3sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/lifeTimeSaveTV"
+                    app:layout_constraintStart_toEndOf="@id/lifeTimeCheckIV"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/lifeTimePriceTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/subscription_unselected_color"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/lifeTimeSaveTV"
+                    app:layout_constraintStart_toStartOf="@id/lifetTimeTitleTV"
+                    app:layout_constraintTop_toBottomOf="@id/lifetTimeTitleTV" />
+
+                <TextView
+                    android:id="@+id/lifeTimeSaveTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_premium_save"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="7dp"
+                    android:text="@string/save_percent"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/upgradeTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/bg_upgrade"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+
+                android:paddingVertical="12dp"
+                android:text="@string/upgrade_now"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lifeTimeCL" />
+
+            <ImageView
+                android:id="@+id/termsArrowIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_arrow_up"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upgradeTV" />
+
+            <TextView
+                android:id="@+id/termsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/subscription_terms"
+                android:textColor="#929292"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/termsArrowIV" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/textLayout"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="31dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textview_bg"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termsTV">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fadeScrollbars="false"
+                    android:layoutDirection="ltr"
+                    android:overScrollMode="never"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="12dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbarThumbVertical="@drawable/scrollview_thumb"
+                    android:scrollbarTrackVertical="@drawable/vertical_scrollview_track"
+                    android:scrollbars="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/detailTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/roboto_medium"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/subscription_text"
+                            android:textColor="#66000000"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.core.widget.NestedScrollView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

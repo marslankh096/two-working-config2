@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">Numero di pagina</string>
+    <string name="toast_current_pg_1">attualmente ci sono</string>
+    <string name="toast_current_pg_2">Pagine</string>
+
+    <string name="toast_delete_success_office">Eliminato con successo</string>
+    <string name="toast_file_name_not_valid_office">Il nome del file non è valido</string>
+    <string name="toast_name_already_exist">Il nome esiste già</string>
+    <string name="toast_file_rename_successfully_office">Documento rinominato correttamente</string>
+    <string name="more_dialog_rename_office">Rinominare</string>
+    <string name="more_dialog_bookmark_office">Segnalibro</string>
+    <string name="more_dialog_go_to_page_office">Vai alla pagina</string>
+    <string name="more_dialog_create_shortcut_office">Creare una scorciatoia</string>
+    <string name="more_dialog_convert_to_pdf_office">Converti in PDF</string>
+    <string name="more_dialog_share_office">Condividere</string>
+    <string name="more_dialog_print_office">Stampa</string>
+    <string name="more_dialog_delete_office">Eliminare</string>
+    <string name="details_dialog_details_office">Dettagli</string>
+    <string name="details_dialog_file_name_office">Nome del file</string>
+    <string name="details_dialog_storage_location_office">Posizione di archiviazione</string>
+    <string name="details_dialog_last_modified_office">Ultima modifica</string>
+    <string name="details_dialog_file_size_office">Dimensione del file</string>
+    <string name="rename_dialog_ok_office">OK</string>
+    <string name="rename_dialog_done_office">Fatto</string>
+    <string name="rename_dialog_hint_office">Nome del file</string>
+    <string name="delete_dialog_delete_title_office">Eliminare</string>
+    <string name="delete_dialog_sub_title_office">Sei sicuro di voler eliminare questo file?</string>
+    <string name="delete_dialog_done_office">Fatto</string>
+    <string name="processing_dialog_title_office">in lavorazione</string>
+    <string name="processing_dialog_sub_title_office">Eliminazione file sul telefono, attendere...</string>
+    <string name="go_to_page_title_office">Vai alla pagina</string>
+    <string name="processing_print_office">Il file sarà pronto per la stampa, attendere...</string>
+
+    <string name="save_dialog_title_office">Salva documento</string>
+    <string name="save_dialog_hint_office">Nome</string>
+    <string name="converstion_dialog_process_office">Conversione in corso, attendere qualche minuto...</string>
+    <string name="converstion_dialog_success_office">Successo!</string>
+    <string name="toast_file_conversion_complete">Conversione file completata</string>
+    <string name="toast_shortcut_exist">La scorciatoia esiste già</string>
+    <string name="toast_shortcut_launcher_not_support">La scorciatoia non è supportata dal tuo launcher</string>
+
+    <string name="failed_toast_office">Fallito</string>
+</resources>

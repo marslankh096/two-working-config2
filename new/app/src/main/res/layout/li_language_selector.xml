@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackgroundBorderless"
+    >
+
+    <TextView
+        android:id="@+id/tv_header_recycler_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:text="@string/select_language"
+        android:visibility="gone"
+        android:textColor="#99000000"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:id="@+id/language_item"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/tv_header_recycler_lang"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/tv_language_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:text="@string/source_lang"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_lang_meaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/tv_language_name"
+            android:text="@string/source_lang"
+            android:textColor="#5B6D80"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_lang_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="18.3dp"
+            android:src="@drawable/ic_lang_selected" />
+
+        <View
+            android:id="@+id/line_lang"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/app_back_ground" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

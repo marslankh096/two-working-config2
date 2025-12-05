@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_no_text_office">رقم الصفحة</string>
+    <string name="toast_current_pg_1">حاليا هناك</string>
+    <string name="toast_current_pg_2">الصفحات</string>
+    <string name="toast_delete_success_office">حذف بنجاح</string>
+    <string name="toast_file_name_not_valid_office">اسم الملف غير صالح</string>
+    <string name="toast_name_already_exist">الاسم موجود بالفعل</string>
+    <string name="toast_file_rename_successfully_office">تمت إعادة تسمية المستند بنجاح</string>
+    <string name="more_dialog_rename_office">إعادة تسمية</string>
+    <string name="more_dialog_bookmark_office">إشارة مرجعية</string>
+    <string name="more_dialog_go_to_page_office">انتقل إلى صفحة</string>
+    <string name="more_dialog_create_shortcut_office">انشاء اختصار</string>
+    <string name="more_dialog_convert_to_pdf_office">تحويل إلى قوات الدفاع الشعبي</string>
+    <string name="more_dialog_share_office">يشارك</string>
+    <string name="more_dialog_print_office">مطبعة</string>
+    <string name="more_dialog_delete_office">يمسح</string>
+    <string name="details_dialog_details_office">تفاصيل</string>
+    <string name="details_dialog_file_name_office">اسم الملف</string>
+    <string name="details_dialog_storage_location_office">مكان التخزين</string>
+    <string name="details_dialog_last_modified_office">آخر تعديل</string>
+    <string name="details_dialog_file_size_office">حجم الملف</string>
+    <string name="rename_dialog_ok_office">نعم</string>
+    <string name="rename_dialog_done_office">منتهي</string>
+    <string name="rename_dialog_hint_office">اسم الملف</string>
+    <string name="delete_dialog_delete_title_office">يمسح</string>
+    <string name="delete_dialog_sub_title_office">هل أنت متأكد أنك تريد حذف هذا الملف؟</string>
+    <string name="delete_dialog_done_office">منتهي</string>
+    <string name="processing_dialog_title_office">يعالج</string>
+    <string name="processing_dialog_sub_title_office">جارٍ حذف الملفات على الهاتف، يرجى الانتظار...</string>
+    <string name="go_to_page_title_office">انتقل إلى صفحة</string>
+    <string name="processing_print_office">الملف جاهز للطباعة، يرجى الانتظار...</string>
+
+    <string name="save_dialog_title_office">حفظ المستند</string>
+    <string name="save_dialog_hint_office">اسم</string>
+    <string name="converstion_dialog_process_office">جاري التحويل، برجاء الانتظار بضع دقائق...</string>
+    <string name="converstion_dialog_success_office">نجاح!</string>
+    <string name="toast_file_conversion_complete">اكتمل تحويل الملف</string>
+    <string name="toast_shortcut_exist">الاختصار موجود بالفعل</string>
+    <string name="toast_shortcut_launcher_not_support">الاختصار غير مدعوم من قبل المشغل الخاص بك</string>
+
+    <string name="failed_toast_office">فشل</string>
+</resources>

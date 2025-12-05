@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "833848576852",
+    "project_id": "translator-7eabd",
+    "storage_bucket": "translator-7eabd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833848576852:android:5ecab33a021e222f6ad6c1",
+        "android_client_info": {
+          "package_name": "com.translateall.language.free.translator.dictionary.speechtext.learnenglish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP2R8lwbqsZFpUgTkjwnSk_0j2J51VYss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

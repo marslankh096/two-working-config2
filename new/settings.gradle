@@ -1,0 +1,5 @@
+rootProject.name = "Translate"
+include ':app'
+include ':docs_library'
+include ':admanagerx'
+include ':iap_library'
